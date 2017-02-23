@@ -45,3 +45,24 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#for the folder
+node_modules
+dist
+.tmp
+bower_components
+
+index.php
+languages
+#plugins/*
+plugins/akismet
+plugins/*.php
+!plugins/misysnews/**
+#themes
+themes/*php
+themes/twenty*
+!themes/misysnews/*
+uploads
+
+*.zip
+
