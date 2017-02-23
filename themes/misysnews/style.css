@@ -1,0 +1,31 @@
+/*
+ Theme Name:   MisysNews Theme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+
+html, body,
+body.page-slug-misysnews:before,
+body.page-template-page_fullwidth:before {
+  background: white;
+  box-shadow: none;
+
+  /*background: #000;*/
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  color: #555;
+  line-height: initial;
+}
+
+body.page-template-page_fullwidth .site-content {
+	margin: auto;
+	width: 100%;
+}
